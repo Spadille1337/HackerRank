@@ -30,3 +30,19 @@ Welcome to 30 Days of Code!
 
 On the first line, we print the string literal Hello, World.. On the second line, we print the contents of the inputstring variable which, for this sample case, happens to be Welcome to 30 Days of Code!. If you do not print the variable's contents to stdout, you will not pass the hidden test case.
 
+```java
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+public class Solution {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in); 
+        String inputString = scan.nextLine(); 
+        System.out.println("Hello, World.");
+        System.out.println(inputString);
+        scan.close();  
+    }
+}
+```
